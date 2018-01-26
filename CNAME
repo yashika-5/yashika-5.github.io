@@ -1,1 +1,167 @@
 yashikagupta.me
+
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	
+	.header{
+		width: 100%;
+		background-color: #3b5999;
+		display: flex;
+		
+	}
+	.first{
+		font-size: 50px;
+		margin-left: 100px;
+		padding-top: 25px;
+		color: white;
+		width: 50%;
+	}
+	.main{
+		width: 50%;
+	}
+	.mid{
+		background-color: #eeeff4;
+		width: 100%;
+		opacity: .7;
+		display: flex;
+
+	}
+	.next{
+		background-color: #eeeff4;
+		width: 100%;
+		height: 350px;
+		opacity: .4;
+
+	}
+	.right{
+		float: right;
+		margin-right: 30px;
+		padding: 20px;
+		margin-top: 10px;
+		line-height: 10px;
+		width: 50%;
+
+	}
+	label, input{
+		display: flex;
+		margin-top: 20px;
+	}
+	label{
+		margin-bottom: 10px;
+	}
+	p{
+      font-size: 40px;
+      
+      margin-top: 0px;
+      margin-right: 50px;
+      margin-bottom: 10px;
+	}
+	.left{
+		width: 50%;
+	}
+	h4{
+		color: white;
+	}
+
+	.imp{
+		height: 45px;
+	}
+	
+
+
+	
+
+</head>
+</style>
+<body>
+	<div class="header">
+
+		<div class="first"> 
+		facebook
+	</div>
+	<div class="main">
+	<form>
+				<label class="imp">
+				<h4>E-mail or Username</h4><input type="text" name="E-mail">
+			  <h4> Password</h4> <input type="text" name="Password">
+			</label>
+		</form>
+</div>
+</div>
+	<div class="mid">
+	<div class="left"> <img src="faceb.jpg" width="70%" height="20%">
+	</div>
+
+		
+		<div  class="right">
+			<p>Create an account</p>
+			<h3><br></h3>
+			<h3>It's free and always will be.</h3>
+			<form>
+				<label>
+				<input type="text" placeholder="first-name" >
+			    <input type="text" placeholder="sur-name">
+			</label>
+                <label>
+			    <input type="text" placeholder="mobile-number or email">
+			</label>
+			
+                <label>
+			    <input type="text" placeholder="Re-enter mobile-number or email">
+			</label>
+			
+                <label>
+			    <input type="text" placeholder="New password">
+			</label>
+			<label>
+			   
+			   <select>
+			    <option value="January"> January</option>
+			    <option value="FEb"> Febuary</option>
+			    <option value="march"> March</option>
+			    <option value="April"> April</option>
+			    <option value="May">May</option>
+			</select>
+			<select>
+			    <option value="1"> 1</option>
+			    <option value="2">2</option>
+			    <option value="3"> 3</option>
+			    <option value="4"> 4</option>
+			    <option value="5">5</option>
+			</select>
+			<select>
+			    <option value="1"> 1990</option>
+			    <option value="2">1991</option>
+			    <option value="3">1992 </option>
+			    <option value="4">1993 </option>
+			    <option value="5">1994</option>
+			</select>
+
+		</label>
+
+
+
+
+
+
+			</label>
+			<h3>By clicking create an account you are ready for our terms.</h3>
+			
+			<input type="submit" value="Create an account" style="background-color:darkgreen" >
+		
+
+			</form>
+		
+	</div>
+</div>
+ 
+	
+	<div class="next"></div>
+
+
+	
+
+</body>
+</html>
